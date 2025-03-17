@@ -1,0 +1,10 @@
+name: copy_with
+description: generates a copyWith method for classes marked with @copyWith annotation
+version: 1.0.0
+
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+
+dependencies:
+  meta: ^1.16.0

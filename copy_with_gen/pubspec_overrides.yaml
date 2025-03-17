@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: copy_with
+dependency_overrides:
+  copy_with:
+    path: ../copy_with

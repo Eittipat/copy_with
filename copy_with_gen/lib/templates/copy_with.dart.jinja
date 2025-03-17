@@ -1,0 +1,13 @@
+extension {{ name }}CopyWithGen on {{ name }} {
+  {{ name }} copyWith({
+    {% for prop in properties %}
+      {{ prop['type'] }} Function()? {{ prop['name'] }},
+    {%- endfor %}
+  }) {
+  return {{ name }}(
+      {% for prop in properties %}
+        {{ prop['name'] }}: {{ prop['name'] }} != null ? {{ prop['name'] }}() : this.{{ prop['name'] }},
+      {%- endfor %}
+    );
+  }
+}
