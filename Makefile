@@ -1,0 +1,4 @@
+
+
+format:
+	@dart format .
