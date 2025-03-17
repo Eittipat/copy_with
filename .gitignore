@@ -26,6 +26,11 @@ doc/api/
 .flutter-plugins
 .flutter-plugins-dependencies
 
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
 # IntelliJ related
 *.iml
 *.ipr
