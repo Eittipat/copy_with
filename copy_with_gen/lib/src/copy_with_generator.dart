@@ -42,7 +42,6 @@ class CopyWithGenerator extends GeneratorForAnnotation<CopyWith> {
       folder = package!.packageUriRoot.resolve("templates").toFilePath();
     }
     final templates = Platform.script.resolve(folder).toFilePath();
-    print(templates);
     var env = Environment(
       globals: <String, Object?>{},
       autoReload: false,
